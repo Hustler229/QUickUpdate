@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*{
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+}
+
+.bold-text {
+  font-weight: bold;
+}
+.help-page {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+details {
+  margin-bottom: 10px;
+}
+
+summary {
+  font-size: 1.1em;
+  cursor: pointer;
+  padding: 10px;
+  background-color: #f4f4f4;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+ul li {
+  margin: 5px 0;
+}
