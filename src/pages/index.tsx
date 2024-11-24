@@ -29,7 +29,7 @@ const IndexPage :React.FC = ()=>{
     <div className="flex flex-col justify-normal items-start gap-5">
       <div className="flex  flex-col justify-center items-start gap-5 md:gap-10  py-3 rounded-lg md:py-5 overflow-hidden border my-5 px-2 md:px-5  shadow-sm">
         <Typography variant="h1" className="font-bold">Simplifiez la mise à jour de vos contacts téléphoniques</Typography>
-        <Typography> <span className="font-bold">QuickUpdate</span> vous aide à détecter les numéros de tous les réseaux télépohoniques béninois, s'assure de les mettre à jour tout en conservant vos autres numéros internationales.</Typography>
+        <Typography> <span className="font-bold">QuickUpdate</span> vous aide à détecter les numéros de tous les réseaux téléphoniques béninois, s'assure de les mettre à jour tout en conservant vos autres numéros internationales.</Typography>
         <Link href={user ? '/auth' : '/connexion'}><Button className="hover:bg-primary hover:text-white transition-colors " size="small">Commencer gratuitement</Button></Link>
       </div>
       <div className="flex flex-col justify-normal gap-2 items-start p-3 md:p-5 w-full overflow-hidden shadow-sm border rounded-lg">
