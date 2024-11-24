@@ -1,14 +1,16 @@
 /* eslint-disable react/no-unescaped-entities */
 import Typography from "@/components/design/typography"
 
-const PrivacyPolicyComponent = ()=>{
+const PrivacyPolicyComponent = ()=> {
     return (
         <div className="flex flex-col justify-normal items-start gap-5 md:gap-10">
             <Typography variant="h2" className="font-bold">Politique de Confidentialité</Typography>
             <div className="flex flex-col justify-normal items-start gap-5 md:gap-10">
                 <div className="flex flex-col items-start justify-normal gap-3">
                     <Typography variant="h5" className="font-semibold">Introduction</Typography>
-                    <Typography>Chez <span className="font-bold">QuickUpdate</span>, nous respectons la confidentialité de vos informations personnelles. Cette Politique de Confidentialité explique comment nous collectons, utilisons, et protégeons vos données lorsque vous utilisez notre application.</Typography>
+                    <Typography>
+                        Chez <span className="font-bold">QuickUpdate</span>, nous respectons la confidentialité de vos informations personnelles. Cette Politique de Confidentialité explique comment nous collectons, utilisons, et protégeons vos données lorsque vous utilisez notre application. En utilisant QuickUpdate, vous acceptez cette politique.
+                    </Typography>
                 </div>
                 <div className="flex flex-col items-start justify-normal gap-3">
                     <Typography variant="h5" className="font-semibold">Collecte des informations</Typography>
@@ -35,23 +37,37 @@ const PrivacyPolicyComponent = ()=>{
                 </div>
                 <div className="flex flex-col items-start justify-normal gap-3">
                     <Typography variant="h5" className="font-semibold">Partage des informations</Typography>
-                    <Typography>Nous ne partageons pas vos informations personnelles avec des tiers, à l'exception des services tiers qui nous aident à fournir notre service, comme Firebase pour l'authentification et Supabase pour le stockage des fichiers.</Typography>
+                    <Typography>
+                        Nous ne partageons pas vos informations personnelles avec des tiers, à l'exception des services tiers qui nous aident à fournir notre service, comme Firebase pour l'authentification et Supabase pour le stockage des fichiers. Ces services respectent des normes strictes de confidentialité et de sécurité des données.
+                    </Typography>
                 </div>
                 <div className="flex flex-col items-start justify-normal gap-3">
                     <Typography variant="h5" className="font-semibold">Protection des données</Typography>
-                    <Typography>Nous prenons des mesures de sécurité appropriées pour protéger vos informations personnelles contre tout accès non autorisé, altération, divulgation ou destruction.</Typography>
+                    <Typography>
+                        Nous prenons des mesures de sécurité appropriées pour protéger vos informations personnelles contre tout accès non autorisé, altération, divulgation ou destruction. Nous utilisons des technologies de cryptage avancées pour sécuriser vos données.
+                    </Typography>
                 </div>
                 <div className="flex flex-col items-start justify-normal gap-3">
                     <Typography variant="h5" className="font-semibold">Vos droits</Typography>
-                    <Typography>Vous avez le droit de consulter, modifier ou supprimer vos informations personnelles. Pour ce faire, vous pouvez accéder à votre profil utilisateur dans l’application ou nous contacter directement.</Typography>
+                    <Typography>
+                        Vous avez le droit de consulter, modifier ou supprimer vos informations personnelles. Pour ce faire, vous pouvez accéder à votre profil utilisateur dans l’application ou nous contacter directement.
+                    </Typography>
                 </div>
                 <div className="flex flex-col items-start justify-normal gap-3">
                     <Typography variant="h5" className="font-semibold">Modifications de la politique</Typography>
-                    <Typography>Nous nous réservons le droit de modifier cette Politique de Confidentialité à tout moment. Toute modification sera publiée sur cette page.</Typography>
+                    <Typography>
+                        Nous nous réservons le droit de modifier cette Politique de Confidentialité à tout moment. Toute modification sera publiée sur cette page.
+                    </Typography>
+                </div>
+                <div className="flex flex-col items-start justify-normal gap-3">
+                    <Typography variant="h5" className="font-semibold">Contactez-nous</Typography>
+                    <Typography>
+                        Si vous avez des questions concernant cette Politique de Confidentialité ou la gestion de vos données, vous pouvez nous contacter à l'adresse suivante : <a href="mailto:igoradande44@gmail.com" className="text-blue-600 font-semibold">igoradande44@gmail.com</a>
+                    </Typography>
                 </div>
             </div>
         </div>
     )
 }
 
-export default PrivacyPolicyComponent
+export default PrivacyPolicyComponent;
