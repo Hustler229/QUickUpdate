@@ -189,6 +189,9 @@ const SettingComponent = () => {
                     <Link href={'/modify-email'}>
                         <Typography>Modifier l'email</Typography>
                     </Link>
+                    <Link href={'/confirm-email'}>
+                        <Typography>Confirmer votre email</Typography>
+                    </Link>
                     <button onClick={()=>SignOut()} className="px-10 py-2 text-white bg-danger rounded-lg text-sm font-bold">Déconnexion</button>
                 </div>
             </div>
